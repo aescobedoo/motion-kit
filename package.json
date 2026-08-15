@@ -1,0 +1,32 @@
+{
+  "name": "motion-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Prompt-to-motion starter for Codex and Claude Code",
+  "scripts": {
+    "studio": "remotion studio",
+    "typecheck": "tsc --noEmit",
+    "install:skills": "node scripts/install-skills.mjs",
+    "render:demo": "remotion render --config=remotion.fullscreen.config.ts src/index.ts CreatividadSustraccion out/setup/creatividad-sustraccion.mov",
+    "render:fullscreen": "remotion render --config=remotion.fullscreen.config.ts",
+    "render:overlay": "remotion render --config=remotion.overlay.config.ts",
+    "render:social": "remotion render --config=remotion.social.config.ts",
+    "still:social": "remotion still --config=remotion.social.config.ts",
+    "verify:demo": "node scripts/verify-output.mjs out/setup/creatividad-sustraccion.mov fullscreen",
+    "verify": "node scripts/verify-install.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.487",
+    "@remotion/google-fonts": "4.0.487",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.487"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.24",
+    "typescript": "5.9.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

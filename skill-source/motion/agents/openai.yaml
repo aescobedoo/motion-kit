@@ -1,0 +1,6 @@
+interface:
+  display_name: "Motion"
+  short_description: "Create polished motion graphics from prompts"
+  default_prompt: "Use $motion to create a full-screen animation from my idea."
+policy:
+  allow_implicit_invocation: true

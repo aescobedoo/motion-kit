@@ -1,0 +1,26 @@
+{
+  "brandName": "My Motion Style",
+  "feeling": ["minimal", "modern", "precise", "tech"],
+  "colors": {
+    "backgroundCenter": "#232326",
+    "backgroundEdge": "#000000",
+    "neutral": "#F2F2F2",
+    "cyan": "#22E6B0",
+    "blue": "#5AC8FA",
+    "yellow": "#FFD60A",
+    "orange": "#FF9F0A",
+    "red": "#FF3B3B",
+    "purple": "#BF5AF2"
+  },
+  "motion": {
+    "fps": 30,
+    "typicalSeconds": [2, 7],
+    "damping": 200,
+    "defaultOutput": "fullscreen"
+  },
+  "canvas": {
+    "vertical": [1080, 1920],
+    "social": [1080, 1350],
+    "captionSafeBottomY": 1300
+  }
+}
